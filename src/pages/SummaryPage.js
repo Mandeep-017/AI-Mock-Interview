@@ -37,7 +37,8 @@ export default function SummaryPage() {
       },
     ];
 
-    const apiKey = process.env.REACT_APP_OPENROUTER_API_KEY;
+    const apiKey = process.env.REACT_APP_API_KEY;
+;
 
     if (!apiKey) {
       console.error("❌ OpenRouter API key is missing");
